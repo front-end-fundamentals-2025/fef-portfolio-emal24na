@@ -1,3 +1,7 @@
+/* FONTS AND OVERALL COLOR */
+/* FONTS AND OVERALL COLOR */
+/* FONTS AND OVERALL COLOR */
+
 * {
   font-family: "Oswald", serif;
   text-decoration: none;
@@ -8,15 +12,16 @@
 h1 {
   font-size: 3rem;
   padding-left: 2.5rem;
-  padding-top: 2rem;
 }
 
 h3 {
   padding-top: 2rem;
+  padding-bottom: 0.7rem;
 }
 
 main {
   padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
 p,
@@ -32,6 +37,8 @@ body {
   background-color: rgb(250, 250, 250);
 }
 
+/* HEADER */
+/* HEADER */
 /* HEADER */
 
 header {
@@ -64,9 +71,38 @@ header {
 
 .logo {
   /* float: left; added from https://www.w3schools.com/css/css_website_layout.asp accessed: 2025-01-17 */
-  width: 6rem;
-  padding-top: 2.7rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding-top: 4.5rem;
+  padding-right: 1rem;
 }
+
+#logo-link {
+  padding-left: 0rem;
+}
+
+ul,
+a {
+  list-style: none;
+  color: black;
+  font-size: 1.5rem;
+  padding-left: 2.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  margin-top: 0rem;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/* BODY */
+/* BODY */
+/* BODY */
+
+/* INDEX */
+/* INDEX */
+/* INDEX */
 
 .title_welcome {
   margin-bottom: 0rem;
@@ -76,35 +112,6 @@ header {
   margin-top: 0rem;
   padding-top: 0rem;
   padding-bottom: 2rem;
-}
-
-ul,
-a {
-  list-style: none;
-  color: black;
-  font-size: 1.5rem;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
-  display: flex;
-  margin-top: 0rem;
-}
-
-/* BODY */
-
-.portrait {
-  width: 100%;
-  padding-left: 2.5rem;
-}
-
-.aboutme-text {
-  margin-top: 0rem;
-  padding-top: 0rem;
-}
-
-.about-container {
-  padding-top: 3rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .project-image {
@@ -118,6 +125,54 @@ a {
   justify-content: center;
 }
 
+figure {
+  margin-left: 0;
+}
+
+/* ABOUT ME PAGE */
+/* ABOUT ME PAGE */
+/* ABOUT ME PAGE */
+
+.portrait {
+  width: 100%;
+  padding-left: 0rem;
+}
+
+.aboutme-text {
+  margin-top: 0rem;
+  padding-top: 0rem;
+  margin-right: 2rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+/* CONTACT PAGE  */
+/* CONTACT PAGE  */
+/* CONTACT PAGE  */
+
+form {
+  flex: left;
+  padding-left: 2.5rem;
+}
+
+.submit-button {
+  padding-top: 2rem;
+}
+
+.contact-text {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* TRATTORIA DEL MAR  */
+/* TRATTORIA DEL MAR  */
+/* TRATTORIA DEL MAR  */
+
 .trattoria-img {
   width: 100%;
 }
@@ -126,6 +181,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
+  padding-top: 2rem;
 }
 
 .trattoria-columns {
@@ -135,15 +191,8 @@ a {
   align-items: center;
 }
 
-figure {
-  margin-left: 0;
-}
-
-form {
-  flex: left;
-  padding-left: 3rem;
-}
-
+/* FOOTER */
+/* FOOTER */
 /* FOOTER */
 
 footer {
@@ -157,7 +206,43 @@ footer {
 
 #footer_text {
   color: rgb(255, 255, 255);
+  padding-left: 0rem;
+  padding-top: 1rem;
 }
+
+#white-name {
+  color: white;
+  padding-top: 0rem;
+  padding-left: 0.4rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#small-photo-logo {
+  padding-top: 0.6rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.small-logo {
+  display: flex;
+}
+
+#social-media-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top: 1.5rem;
+  padding-right: 0.8rem;
+}
+
+#social-media-link {
+  padding-left: 0rem;
+  padding-bottom: 0rem;
+}
+
+/* SCALING */
+/* SCALING */
+/* SCALING */
 
 @media screen and (max-width: 420px) {
   ul,
@@ -170,8 +255,9 @@ footer {
 
 @media screen and (max-width: 550px) {
   .logo {
-    width: 4rem;
-    padding-top: 2.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 4.2rem;
   }
   #text-logo {
     font-weight: 400;
