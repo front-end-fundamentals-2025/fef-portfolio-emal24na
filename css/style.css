@@ -1,6 +1,4 @@
 /* FONTS AND OVERALL COLOR */
-/* FONTS AND OVERALL COLOR */
-/* FONTS AND OVERALL COLOR */
 
 * {
   font-family: "Oswald", serif;
@@ -37,8 +35,6 @@ body {
   background-color: rgb(250, 250, 250);
 }
 
-/* HEADER */
-/* HEADER */
 /* HEADER */
 
 header {
@@ -97,11 +93,7 @@ ul {
 }
 
 /* BODY */
-/* BODY */
-/* BODY */
 
-/* INDEX */
-/* INDEX */
 /* INDEX */
 
 .title_welcome {
@@ -130,8 +122,6 @@ figure {
 }
 
 /* ABOUT ME PAGE */
-/* ABOUT ME PAGE */
-/* ABOUT ME PAGE */
 
 .portrait {
   width: 100%;
@@ -151,8 +141,6 @@ figure {
 }
 
 /* CONTACT PAGE  */
-/* CONTACT PAGE  */
-/* CONTACT PAGE  */
 
 form {
   flex: left;
@@ -169,8 +157,6 @@ form {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* TRATTORIA DEL MAR  */
-/* TRATTORIA DEL MAR  */
 /* TRATTORIA DEL MAR  */
 
 .trattoria-img {
@@ -191,8 +177,6 @@ form {
   align-items: center;
 }
 
-/* FOOTER */
-/* FOOTER */
 /* FOOTER */
 
 footer {
@@ -240,8 +224,6 @@ footer {
   padding-bottom: 0rem;
 }
 
-/* SCALING */
-/* SCALING */
 /* SCALING */
 
 @media screen and (max-width: 420px) {
