@@ -16,34 +16,38 @@
 
   <body>
     <header>
-      <img class="logo" src="img/logo.png" alt="Logotype for branding" />
-      <p id="text-logo">ALEN EMINOVIC</p>
-      <nav>
-        <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About me</li></a>
-          <a href="contact.html"><li>Contact</li></a>
-        </ul>
-      </nav>
+      <div class="header-top">
+        <img class="logo" src="img/logo.png" alt="Logotype for branding" />
+        <p id="text-logo">ALEN EMINOVIC</p>
+      </div>
+      <div class="header-low">
+        <nav>
+          <ul>
+            <a class="home-link" href="index.html"><li>HOME</li></a>
+            <a href="about.html"><li>ABOUT ME</li></a>
+            <a href="contact.html"><li>CONTACT ME</li></a>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <h1>Contact me</h1>
+      <h1>CONTACT ME</h1>
 
       <form>
-        <p>Your name</p>
-        <input type="name" />
+        <h3>Your name</h3>
+        <input type="text" />
 
-        <p>E-mail</p>
-        <input type="email" />
-        <p>Type your message</p>
+        <h3>E-mail</h3>
+        <input type="text" />
+        <h3>Type your message</h3>
         <textarea></textarea>
         <input type="submit" value="Send message" />
       </form>
     </main>
 
     <footer>
-      <p>© Alen Eminovic 2025</p>
+      <p id="footer_text">© Alen Eminovic 2025</p>
     </footer>
   </body>
 </html>

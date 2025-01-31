@@ -1,35 +1,78 @@
 * {
   font-family: "Oswald", serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+}
+
+p,
+h2 {
+  padding-left: 2.5rem;
+}
+
+#medium-heading {
+  padding-top: 2rem;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
 }
 
 /* HEADER */
 
 header {
-  background-color: rgb(226, 237, 247);
+  border-bottom: solid 0.2rem rgb(50, 50, 50);
 }
 
-nav {
-  overflow: hidden; /* added from https://www.w3schools.com/css/css_website_layout.asp accessed: 2025-01-17 */
-  background-color: rgb(226, 237, 247);
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-low {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-link {
+  padding-left: 0rem;
 }
 
 nav a {
   font-size: 1.5rem;
-  float: left; /* added from https://www.w3schools.com/css/css_website_layout.asp accessed: 2025-01-17 */
-  padding: 14px 14px;
+  /* float: left; added from https://www.w3schools.com/css/css_website_layout.asp accessed: 2025-01-17 */
 }
 
 #text-logo {
   font-weight: 400;
   font-size: 3.5rem;
-  padding-top: 3rem;
+  padding-top: 3.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0rem;
 }
 
 .logo {
-  float: left; /* added from https://www.w3schools.com/css/css_website_layout.asp accessed: 2025-01-17 */
+  /* float: left; added from https://www.w3schools.com/css/css_website_layout.asp accessed: 2025-01-17 */
   width: 10%;
-  padding-top: 2rem;
-  padding-left: 1.5rem;
+  padding-top: 3rem;
+}
+
+.title_welcome {
+  margin-bottom: 0rem;
+}
+
+.title {
+  margin-top: 0rem;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
 }
 
 ul,
@@ -37,20 +80,78 @@ a {
   list-style: none;
   color: black;
   font-size: 2rem;
-  padding-left: 0px;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  display: flex;
+  margin-top: 0rem;
 }
 
 /* BODY */
 
 .portrait {
-  width: 15%;
+  width: 110%;
+  padding-left: 2.5rem;
+}
+
+.aboutme-text {
+  margin-top: 0rem;
+  padding-top: 0rem;
+}
+
+.about-container {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 48rem);
+}
+
+.project-image {
+  width: 30rem;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 35rem);
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.trattoria-img {
+  width: 100%;
+}
+
+.project-trattoria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.trattoria-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  margin-left: 0;
+}
+
+form {
+  flex: left;
+  padding-left: 3rem;
 }
 
 /* FOOTER */
 
 footer {
-  margin-top: 3rem;
+  border-top: 0rem;
+  margin-top: 0rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: rgb(226, 237, 247);
+  padding-left: 2rem;
+  background-color: rgb(0, 0, 0);
+}
+
+#footer_text {
+  color: rgb(255, 255, 255);
 }

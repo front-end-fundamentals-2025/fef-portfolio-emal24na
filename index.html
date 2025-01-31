@@ -16,23 +16,94 @@
 
   <body>
     <header>
-      <img class="logo" src="img/logo.png" alt="Logotype for branding" />
-      <p id="text-logo">ALEN EMINOVIC</p>
-      <nav>
-        <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About me</li></a>
-          <a href="contact.html"><li>Contact</li></a>
-        </ul>
-      </nav>
+      <div class="header-top"> 
+        <img class="logo" src="img/logo.png" alt="Logotype for branding" />
+        <p id="text-logo">ALEN EMINOVIC</p>
+      </div>
+      <div class="header-low">
+        <nav>
+          <ul>
+            <a class="home-link" href="index.html"><li>HOME</li></a>
+            <a href="about.html"><li>ABOUT ME</li></a>
+            <a href="contact.html"><li>CONTACT ME</li></a>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <h1>Welcome to my portfolio</h1>
+      
+      <h1 class="title_welcome">WELCOME</h1>
+      <h1 class="title">TO MY PORTFOLIO</h1>
+    
+      <section class="project-container">
+        <!-- PROJECT: TRATTORIA DEL MAR -->
+        <a href="project_trattoria.html">
+          <figure>
+            <img
+              class="project-image"
+              src="img/trattoria.jpg"
+              alt="Photo of storefront with Logo"
+            />
+            <figcaption>PROJECT: TRATTORIA DEL MAR</figcaption>
+          </figure>
+        </a>
+        <!-- PROJECT: COFFEE TABLE BOOK -->
+        <a href="coffe_table_book.html">
+          <figure>
+            <img
+              class="project-image"
+              src="img/book_1.png"
+              alt="Design with photo of Dieter Rams"
+            />
+            <figcaption>PROJECT: COFFEE TABLE BOOK</figcaption>
+          </figure>
+        </a>
+        <!-- PROJECT: EDIT - ISSUE 12 -->
+        <a href="magazine.html">
+          <figure>
+            <img
+              class="project-image"
+              src="img/edit.png"
+              alt="Spread from Edit magazine"
+            />
+            <figcaption>PROJECT: EDIT - ISSUE 12</figcaption>
+          </figure>
+        </a>
+        <!-- PROJECT: BITE RUSH -->
+        <a href="bite_rush.html">
+          <figure>
+            <img class="project-image" src="img/bite_rush.png" alt="" />
+            <figcaption>PROJECT: BITE RUSH</figcaption>
+          </figure>
+        </a>
+        <!-- PROJECT: AKADEMIEN INVADER -->
+        <a href="akademien_invader.html">
+          <figure>
+            <img
+              class="project-image"
+              src="img/akademien_invader.png"
+              alt="Splashscreen from game"
+            />
+            <figcaption>PROJECT: AKADEMIEN INVADER</figcaption>
+          </figure>
+        </a>
+        <!-- PROJECT: HOT AIR BALLOON RESQUE -->
+        <a href="balloon_rescue.html">
+          <figure>
+            <img
+              class="project-image"
+              src="img/balloon_resque.png"
+              alt="Splashscreen from game"
+            />
+            <figcaption>PROJECT: HOT AIR BALLOON RESCUE</figcaption>
+          </figure>
+        </a>
+      </section class="project-container">
     </main>
 
     <footer>
-      <p>© Alen Eminovic 2025</p>
+      <p id="footer_text">© Alen Eminovic 2025</p>
     </footer>
   </body>
 </html>
