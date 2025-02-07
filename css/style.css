@@ -22,6 +22,11 @@ main {
   padding-top: 3rem;
 }
 
+#main-no-padding {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 p,
 h2 {
   padding-left: 2.5rem;
@@ -29,6 +34,10 @@ h2 {
 
 #medium-heading {
   padding-top: 2rem;
+}
+
+#p-padding {
+  padding-right: 2rem;
 }
 
 body {
@@ -53,7 +62,7 @@ header {
   justify-content: center;
 }
 
-#home-link {
+.home-link {
   padding-left: 0rem;
 }
 
@@ -92,6 +101,16 @@ ul {
   padding-left: 0;
 }
 
+.menu-bar {
+  transition: transform 0.2s ease-in-out;
+}
+
+/* ":hover" was modified via https://www.w3schools.com/cssref/sel_hover.php */
+
+.menu-bar:hover {
+  transform: scale(1.1);
+}
+
 /* BODY */
 
 /* INDEX */
@@ -107,7 +126,7 @@ ul {
 }
 
 .project-image {
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
@@ -115,6 +134,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
+  padding-right: 3rem;
 }
 
 figure {
@@ -128,9 +148,8 @@ figure {
   padding-left: 0rem;
 }
 
-.aboutme-text {
-  margin-top: 0rem;
-  padding-top: 0rem;
+#addedpadding-text {
+  padding-top: 2rem;
   margin-right: 2rem;
 }
 
@@ -147,14 +166,27 @@ form {
   padding-left: 2.5rem;
 }
 
+.jkpg-map {
+  width: 100%;
+  padding-left: 0rem;
+}
+
 .submit-button {
   padding-top: 2rem;
+  padding-bottom: 3rem;
+  color: black;
 }
 
 .contact-text {
   padding-top: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-me-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
 }
 
 /* TRATTORIA DEL MAR  */
@@ -174,7 +206,7 @@ form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  align-items: center;
+  padding-right: 2rem;
 }
 
 /* FOOTER */
@@ -249,13 +281,30 @@ footer {
     padding-left: 0rem;
   }
   .about-container {
-    padding-bottom: 3rem;
     grid-template-columns: repeat(1, 1fr);
   }
   .project-container {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    padding-bottom: 3rem;
+  }
+  .contact-text {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 2rem;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .contact-me-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .jkpg-map {
+    padding-top: 3rem;
+  }
+  #main-no-padding {
+    padding-top: 0rem;
+  }
+}
+
+/* ANIMATIONS */

@@ -25,34 +25,43 @@
       <div class="header-low">
         <nav>
           <ul>
-            <a id="home-link" href="index.html"><li>HOME</li></a>
-            <a href="about.html"><li>ABOUT ME</li></a>
-            <a href="contact.html"><li>CONTACT ME</li></a>
+            <a class="home-link menu-bar" href="index.html"><li>HOME</li></a>
+            <a class="menu-bar" href="about.html"><li>ABOUT ME</li></a>
+            <a class="menu-bar" href="contact.html"><li>CONTACT ME</li></a>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main>
-      <h1>CONTACT ME</h1>
-
-      <div class="contact-text">
-        <p>Have a question or need assistance? Feel free to reach out! I'm always happy to help and will do my best to respond as quickly as possible. Whether you need more information, have a specific request, or just want to say hello, don’t hesitate to get in touch. I look forward to hearing from you!</p>
+    <main id="main-no-padding">
+      <div class=contact-me-container>
+        <figure>
+          <h1 id="addedpadding-text">CONTACT ME</h1>
+            <p id="p-padding">Have a question or need assistance? Feel free to reach out! I'm always happy to help and will do my best to respond as quickly as possible. Whether you need more information, have a specific request, or just want to say hello, don’t hesitate to get in touch. I look forward to hearing from you!</p>
+          
+              <form>
+                <h3>Your name</h3>
+                <input type="text" />
+    
+                <h3>E-mail</h3>
+                <input type="text" />
+    
+                <h3>Type your message</h3>
+                <textarea></textarea>
+                <div class="submit-button">
+                  <input type="submit" value="Send message" />
+              </form>
+          
+        </figure>
+        <figure>
+          <img class="jkpg-map" src="img/jkpg_map.png" alt="Map of Jönköping">
+        </figure>
       </div>
+      
+        
+      
 
-          <form>
-            <h3>Your name</h3>
-            <input type="text" />
-
-            <h3>E-mail</h3>
-            <input type="text" />
-
-            <h3>Type your message</h3>
-            <textarea></textarea>
-            <div class="submit-button">
-              <input type="submit" value="Send message" />
-            </div>
-          </form>
+   
     </main>
 
     <footer>
